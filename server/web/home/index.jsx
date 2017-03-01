@@ -10,14 +10,14 @@ class HomePage extends React.Component {
 
         return (
             <Layout
-                title="Aqua"
+                title="Community Events"
                 neck={neck}
                 activeTab="home">
 
                 <div className="jumbotron">
                     <h1>Success</h1>
                     <div>
-                        <p className="lead">Your Node.js website and user system is running.</p>
+                        <p className="lead">Your Community Events website and user system is running.</p>
                         <div>
                             <a className="btn btn-primary btn-lg" href="/signup">
                                 Create an account

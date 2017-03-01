@@ -12,7 +12,7 @@ const criteria = {
 
 const config = {
     $meta: 'This file configures the plot device.',
-    projectName: 'Aqua',
+    projectName: 'Community Events',
     port: {
         web: {
             $filter: 'env',
@@ -41,8 +41,8 @@ const config = {
             uri: {
                 $filter: 'env',
                 production: process.env.MONGODB_URI,
-                test: 'mongodb://localhost:27017/aqua-test',
-                $default: 'mongodb://localhost:27017/aqua'
+                test: 'mongodb://swapnil:123qwe@ds113000.mlab.com:13000/comevents',
+                $default: 'mongodb://swapnil:123qwe@ds113000.mlab.com:13000/comevents'
             }
         },
         autoIndex: true
@@ -58,12 +58,12 @@ const config = {
     },
     system: {
         fromAddress: {
-            name: 'Aqua',
-            address: 'jedireza@gmail.com'
+            name: 'Swapnil Community Events',
+            address: 'swapnil0545@gmail.com'
         },
         toAddress: {
-            name: 'Aqua',
-            address: 'jedireza@gmail.com'
+            name: 'Swapnil Community Events',
+            address: 'swapnil0545@gmail.com'
         }
     }
 };
